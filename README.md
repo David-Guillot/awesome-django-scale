@@ -32,7 +32,6 @@ TODO: Specify Django version.
 ## Repositories
 
 - [Django Cacheback](https://django-cacheback.readthedocs.io/en/latest/): Cacheback is an extensible caching library that refreshes stale cache items asynchronously using a Celery or rq task (utilizing django-rq). The key idea being that it’s better to serve a stale item (and populate the cache asynchronously) than block the response process in order to populate the cache synchronously.
-- [django-bulk-update](https://pypi.org/project/django-bulk-update/): Simple bulk update over Django ORM or with helper function.
 - [django-bulk-load](https://pypi.org/project/django-bulk-load/): Load large batches of Django models into the DB using the Postgres COPY command. This library is a more performant alternative to bulk_create and bulk_update in Django.
 - [django-tenants](https://github.com/django-tenants/django-tenants): This application enables django powered websites to have multiple tenants via PostgreSQL schemas. A vital feature for every Software-as-a-Service (SaaS) website.
 
